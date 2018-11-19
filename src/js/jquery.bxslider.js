@@ -1186,7 +1186,7 @@
       slider.hasMove = true;
 
       // x axis swipe
-      if ((xMovement * 3) > yMovement && slider.settings.preventDefaultSwipeX) {
+      if ((xMovement * 1.5) > yMovement && slider.settings.preventDefaultSwipeX) {
         e.preventDefault();
       // y axis swipe
       } else if ((yMovement * 3) > xMovement && slider.settings.preventDefaultSwipeY) {
